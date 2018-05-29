@@ -37,26 +37,26 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 
 ### 3 - Requisiti specifici di sistema
 ##### 3.1 - Funzionali
-> - Il sistema deve permettere la visualizzazione:    
+###### Il sistema deve permettere la visualizzazione:    
 > - RF1 ->  della **lista dei Member**  
 		- RF1.1 -> Un _Member_ deve essere identificato in modo univoco. (id_utente)  
 > - RF2 ->  della **lista dei Channel**  
 		- RF2.1 -> Un _Channel_ deve essere identificato in modo univoco. (id_channel)  
-> - RF3 -> Il sistema deve permettere la visualizzazione della lista completa dei **Member raggruppati per Channel**  
-> - RF4 -> Il sistema deve permettere la visualizzazione della lista dei **Member di un Channel**  
-> - RF5 -> Il sistema deve permettere la visualizzazione di **informazioni di Help**  
-> - RF6 -> Il sistema deve permettere la visualizzazione della lista dei **@mention**    
-		- RF6.1 -> Il sistema deve permettere la visualizzazione della lista dei **@mention in un dato Channel**    
-> - RF7 -> Il sistema deve permettere la visualizzazione della lista dei **@mention che partono da un User**   
-		- RF7.1 -> Il sistema deve permettere la visualizzazione della lista dei _@mention che partono da un User in un dato Channel_  
-> - RF8 -> Il sistema deve permettere la visualizzazione della lista dei **@mention che arrivano ad un User**  
-		- RF8.1 -> Il sistema deve permettere la visualizzazione della lista dei _@mention che arrivano ad un User in un dato Channel_   
-> - RF9 -> Il sistema deve permettere la visualizzazione della **lista pesata dei @mention**  
-		- RF9.1 ->  Il sistema deve permettere la visualizzazione della _lista pesata dei @mention di un dato Channel_    
-> - RF10 -> Il sistema deve permettere la visualizzazione della **lista pesata dei @mention che partono da uno User**   
-		- RF10.1 -> Il sistema deve permettere la visualizzazione della _lista pesata dei @mention che partono da uno User in un dato Channel_    
-> - RF11 -> Il sistema deve permettere la visualizzazione della **lista pesata dei @mention che arrivano ad un User**       
-		- RF11.1 -> Il sistema deve permettere la visualizzazione della _lista pesata dei @mention che arrivano ad un User in un dato Channel_  
+> - RF3 ->  della lista completa dei **Member raggruppati per Channel**  
+> - RF4 ->  della lista dei **Member di un Channel**  
+> - RF5 ->  di **informazioni di Help**  
+> - RF6 ->  della lista dei **@mention**    
+		- RF6.1 ->  della lista dei **@mention in un dato Channel**    
+> - RF7 ->  della lista dei **@mention che partono da un User**   
+		- RF7.1 ->  della lista dei _@mention che partono da un User in un dato Channel_  
+> - RF8 ->  della lista dei **@mention che arrivano ad un User**  
+		- RF8.1 ->  della lista dei _@mention che arrivano ad un User in un dato Channel_   
+> - RF9 ->  della **lista pesata dei @mention**  
+		- RF9.1 ->   della _lista pesata dei @mention di un dato Channel_    
+> - RF10 ->  della **lista pesata dei @mention che partono da uno User**   
+		- RF10.1 ->  della _lista pesata dei @mention che partono da uno User in un dato Channel_    
+> - RF11 ->  della **lista pesata dei @mention che arrivano ad un User**       
+		- RF11.1 ->  della _lista pesata dei @mention che arrivano ad un User in un dato Channel_  
 
 ##### 3.2 - Non Funzionali
 > - RNF1 -> Il sistema deve essere disponibile 24h/24.  
