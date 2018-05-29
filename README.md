@@ -4,7 +4,7 @@
 1. Glossario dei termini utilizzati
 2. Definizione requisiti utente
 3. Requisiti specifici di sistema:  
-		* _funzionali_ (RF)
+		* _funzionali_ (RF)  
 		* _non funzionali_ (RNF)
 4. Validazione requisiti specifici
 
