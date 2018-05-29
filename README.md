@@ -1,6 +1,6 @@
-#SPECIFICA REQUISITI SNA4SLACK
+# SPECIFICA REQUISITI SNA4SLACK
 
-###INTRODUZIONE
+### INTRODUZIONE
 1. - Glossario dei termini utilizzati
 2. - Definizione requisiti utente
 3. - Requisiti specifici di sistema:
@@ -10,7 +10,7 @@
 
 L'obiettivo del seguente documento è quello di definire in modo corretto e completo i requisiti che il software da produrre deve rispettare.
 
-#####1 - GLOSSARIO
+##### 1 - GLOSSARIO
 | Termine | Descrizione | Dati	|
 |    :--  |    --    	| --:   |
 | Member  |  utente o membro iscritto ad un Channel| id_utente , nome , username , id_channel  , display_name |
@@ -20,7 +20,7 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 |lista pesata	| indica la cardinalità o numero di messaggi da From a To, dove From è chi scrive , To è chi riceve | |
 [**Glossario**][1]
 
-#####2 - Definizione requisiti utente 
+##### 2 - Definizione requisiti utente 
 
 -User stories- ,  permettono di definire in linea generale le funzionalità che il sistema deve possedere.
 
@@ -36,7 +36,7 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 10. - In qualità di utente voglio visualizzare la lista pesata dei @mention che partono da uno User
 11. - In qualità di utente voglio visualizzare la lista pesata dei @mention che arrivano a uno User
 
-#####3 - Requisiti specifici di sistema
+##### 3 - Requisiti specifici di sistema
 ###### 3.1 - Funzionali
 >RF1 -> Il sistema deve permettere la visualizzazione della lista dei Member
 	RF1.1 -> Un Member deve essere identificato in modo univoco. (id_utente)
@@ -70,7 +70,7 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 >RNF7 -> Il sistema deve operare su file .json per estrarre le informazioni richieste dall'utente
 
 
-#####4 - Validazione requisiti specifici
+##### 4 - Validazione requisiti specifici
 Eseguiti opportuni test per ogni requisito funzionale. Verifiche soddisfatte riportate di seguito:
 
   RF1
