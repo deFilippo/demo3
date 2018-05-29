@@ -17,7 +17,7 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 | channel| canale di utenti, usato per le conversazioni tra utenti su un dominio specifico |  id_channel , nome , creato_da , membri |
 | informazioni di help | mostra all'utente l'elenco dei comandi relativi alle funzionalità del sistema |
 |mention| tag tra utenti che permette di segnalare il messaggio al destinatario nel caso in cui l'utente che scrive usi la sintassi @utente_y| 	<@nome_utente> + messaggio di testo | 
-| lista pesata	| indica la cardinalità o numero di messaggi da From a To, dove From è chi scrive , To è chi riceve | |
+| lista pesata	| indica la cardinalità o numero di messaggi da From a To, dove From è chi scrive , To è chi riceve | (From,To,weight)|
 
 ### 2 - Definizione requisiti utente 
 
