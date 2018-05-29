@@ -37,13 +37,13 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 
 ##### 3. - Requisiti specifici di sistema
 ###### 3.1 - Funzionali
->RF1 -> Il sistema deve permettere la visualizzazione della lista dei Member  
-		  RF1.1 -> Un Member deve essere identificato in modo univoco. (id_utente)  
->RF2 -> Il sistema deve permettere la visualizzazione della lista dei Channel  
-		RF2.1 -> Un Channel deve essere identificato in modo univoco. (id_channel)  
->RF3 -> Il sistema deve permettere la visualizzazione della lista completa dei Member raggruppati per Channel  
->RF4 -> Il sistema deve permettere la visualizzazione della lista dei Member di un Channel  
->RF5 -> Il sistema deve permettere la visualizzazione di informazioni di Help  
+> - RF1 -> Il sistema deve permettere la visualizzazione della lista dei Member  
+		- RF1.1 -> Un Member deve essere identificato in modo univoco. (id_utente)  
+> - RF2 -> Il sistema deve permettere la visualizzazione della lista dei Channel  
+		- RF2.1 -> Un Channel deve essere identificato in modo univoco. (id_channel)  
+> - RF3 -> Il sistema deve permettere la visualizzazione della lista completa dei Member raggruppati per Channel  
+> - RF4 -> Il sistema deve permettere la visualizzazione della lista dei Member di un Channel  
+> - RF5 -> Il sistema deve permettere la visualizzazione di informazioni di Help  
 >RF6 -> Il sistema deve permettere la visualizzazione della lista dei @mention  
 		RF6.1 -> Il sistema deve permettere la visualizzazione della lista dei @mention in un dato Channel  
 >RF7 -> Il sistema deve permettere la visualizzazione della lista dei @mention che partono da un User  
