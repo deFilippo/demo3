@@ -37,36 +37,36 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 
 ##### 3. - Requisiti specifici di sistema
 ###### 3.1 - Funzionali
->RF1 -> Il sistema deve permettere la visualizzazione della lista dei Member
-	RF1.1 -> Un Member deve essere identificato in modo univoco. (id_utente)
->RF2 -> Il sistema deve permettere la visualizzazione della lista dei Channel
-	RF2.1 -> Un Channel deve essere identificato in modo univoco. (id_channel)
->RF3 -> Il sistema deve permettere la visualizzazione della lista completa dei Member raggruppati per Channel
->RF4 -> Il sistema deve permettere la visualizzazione della lista dei Member di un Channel
->RF5 -> Il sistema deve permettere la visualizzazione di informazioni di Help
->RF6 -> Il sistema deve permettere la visualizzazione della lista dei @mention
-	RF6.1 -> Il sistema deve permettere la visualizzazione della lista dei @mention in un dato Channel
->RF7 -> Il sistema deve permettere la visualizzazione della lista dei @mention che partono da un User
-	RF7.1 -> Il sistema deve permettere la visualizzazione della lista dei @mention che partono da un User in un dato Channel
->RF8 -> Il sistema deve permettere la visualizzazione della lista dei @mention che arrivano ad un User
-	RF8.1 -> Il sistema deve permettere la visualizzazione della lista dei @mention che arrivano ad un User in un dato Channel
->RF9 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention
-	RF9.1 ->  Il sistema deve permettere la visualizzazione della lista pesata dei @mention di un dato Channel
->RF10 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention che partono da uno User 
-	RF10.1 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention che partono da uno User in un dato Channel
->RF11 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention che arrivano ad un User 
-	RF11.1 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention che arrivano ad un User in un dato Channel
->RF12 -> Il sistema mette a disposizione dell'utente specifici comandi
-	RF12.1 -> Se l'utente non rispetta i comandi il sistema genera messaggi d'errore
+>RF1 -> Il sistema deve permettere la visualizzazione della lista dei Member  
+	RF1.1 -> Un Member deve essere identificato in modo univoco. (id_utente)  
+>RF2 -> Il sistema deve permettere la visualizzazione della lista dei Channel  
+	RF2.1 -> Un Channel deve essere identificato in modo univoco. (id_channel)  
+>RF3 -> Il sistema deve permettere la visualizzazione della lista completa dei Member raggruppati per Channel  
+>RF4 -> Il sistema deve permettere la visualizzazione della lista dei Member di un Channel  
+>RF5 -> Il sistema deve permettere la visualizzazione di informazioni di Help  
+>RF6 -> Il sistema deve permettere la visualizzazione della lista dei @mention  
+	RF6.1 -> Il sistema deve permettere la visualizzazione della lista dei @mention in un dato Channel  
+>RF7 -> Il sistema deve permettere la visualizzazione della lista dei @mention che partono da un User  
+	RF7.1 -> Il sistema deve permettere la visualizzazione della lista dei @mention che partono da un User in un dato Channel  
+>RF8 -> Il sistema deve permettere la visualizzazione della lista dei @mention che arrivano ad un User  
+	RF8.1 -> Il sistema deve permettere la visualizzazione della lista dei @mention che arrivano ad un User in un dato Channel  
+>RF9 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention  
+	RF9.1 ->  Il sistema deve permettere la visualizzazione della lista pesata dei @mention di un dato Channel  
+>RF10 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention che partono da uno User   
+	RF10.1 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention che partono da uno User in un dato Channel  
+>RF11 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention che arrivano ad un User     
+	RF11.1 -> Il sistema deve permettere la visualizzazione della lista pesata dei @mention che arrivano ad un User in un dato Channel  
+>RF12 -> Il sistema mette a disposizione dell'utente specifici comandi  
+	RF12.1 -> Se l'utente non rispetta i comandi il sistema genera messaggi d'errore  
 
 ###### 3.2 - Non Funzionali
->RNF1 -> Il sistema deve essere disponibile 24h/24.
->RNF2 -> Il sistema deve rispondere ad un comando in tempi brevi soprattutto per estrazione di dati da piccoli database.
->RNF3 -> Il sistema deve essere utilizzato da linea di comando.
->RNF4 -> Il sistema deve essere indipendente dal sistema operativo utilizzato.
->RNF5 -> Il sistema deve occupare una quantità limitata di memoria. 
->RNF6 -> Il sistema deve saper gestire casi di eventi eccezionali.
->RNF7 -> Il sistema deve operare su file .json per estrarre le informazioni richieste dall'utente
+>RNF1 -> Il sistema deve essere disponibile 24h/24.  
+>RNF2 -> Il sistema deve rispondere ad un comando in tempi brevi soprattutto per estrazione di dati da piccoli database.  
+>RNF3 -> Il sistema deve essere utilizzato da linea di comando.  
+>RNF4 -> Il sistema deve essere indipendente dal sistema operativo utilizzato.  
+>RNF5 -> Il sistema deve occupare una quantità limitata di memoria.  
+>RNF6 -> Il sistema deve saper gestire casi di eventi eccezionali.  
+>RNF7 -> Il sistema deve operare su file .json per estrarre le informazioni richieste dall'utente  
 
 
 ##### 4. - Validazione requisiti specifici
