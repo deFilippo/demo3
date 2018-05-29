@@ -37,7 +37,7 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 
 ### 3 - Requisiti specifici di sistema
 ##### 3.1 - Funzionali
-###### Il sistema deve permettere la visualizzazione:    
+> ###### Il sistema deve permettere la visualizzazione:    
 > - RF1 ->  della **lista dei Member**  
 		- RF1.1 -> Un _Member_ deve essere identificato in modo univoco. (id_utente)  
 > - RF2 ->  della **lista dei Channel**  
