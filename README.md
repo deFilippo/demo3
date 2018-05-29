@@ -4,8 +4,8 @@
 1. - Glossario dei termini utilizzati
 2. - Definizione requisiti utente
 3. - Requisiti specifici di sistema:
-	3.1. - _funzionali_ (RF)
-	3.2. - _non funzionali_ (RNF)
+	- _funzionali_ (RF)
+	- _non funzionali_ (RNF)
 4. - Validazione requisiti specifici
 
 L'obiettivo del seguente documento è quello di definire in modo corretto e completo i requisiti che il software da produrre deve rispettare.
