@@ -10,6 +10,7 @@
 
 L'obiettivo del seguente documento è quello di definire in modo corretto e completo i requisiti che il software da produrre deve rispettare.
 
+
 ### 1 - GLOSSARIO
 | Termine | Descrizione | Dati	|
 |    :--  |    --    	| --:   |
@@ -18,6 +19,7 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 | informazioni di help | mostra all'utente l'elenco dei comandi relativi alle funzionalità del sistema |
 |mention| tag tra utenti che permette di segnalare il messaggio al destinatario nel caso in cui l'utente che scrive usi la sintassi @utente_y| 	<@nome_utente> + messaggio di testo | 
 | lista pesata	| indica la cardinalità o numero di messaggi da From a To, dove From è chi scrive , To è chi riceve | (From,To,weight)|
+
 
 ### 2 - Definizione requisiti utente 
 
@@ -35,9 +37,11 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 10. - In qualità di utente voglio visualizzare la lista pesata dei @mention che partono da uno User
 11. - In qualità di utente voglio visualizzare la lista pesata dei @mention che arrivano a uno User
 
-### 3 - Requisiti specifici di sistema
-##### 3.1 - Funzionali
-> ###### Il sistema deve permettere di:    
+### 3 - Requisiti specifici di sistema  
+
+#### 3.1 - Funzionali
+
+> #### Il sistema deve permettere di:    
 > - RF1 -> visualizzare la **lista dei Member**  
 		- RF1.1 -> Un _Member_ deve essere identificato in modo univoco. (id_utente)  
 > - RF2 -> visualizzare la **lista dei Channel**  
@@ -58,7 +62,8 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 > - RF11 ->  visualizzare la **lista pesata dei @mention che arrivano ad un User**       
 		- RF11.1 ->  visualizzare la _lista pesata dei @mention che arrivano ad un User in un dato Channel_  
 
-##### 3.2 - Non Funzionali
+
+#### 3.2 - Non Funzionali
 > - RNF1 -> Il sistema deve essere disponibile 24h/24.  
 > - RNF2 -> Il sistema deve rispondere ad un comando in tempi brevi soprattutto per estrazione di dati da piccoli database.  
 > - RNF3 -> Il sistema deve essere utilizzato da linea di comando.  
@@ -71,7 +76,7 @@ L'obiettivo del seguente documento è quello di definire in modo corretto e comp
 
 ### 4 - Validazione requisiti specifici
 
-Eseguiti opportuni test per ogni requisito funzionale. Verifiche soddisfatte riportate di seguito:
+Test per ogni requisito funzionale :
 
   RF1  
   Verificare che sia possibile fare la richiesta da linea di comando  
